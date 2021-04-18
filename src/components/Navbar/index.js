@@ -9,6 +9,14 @@ const Navbar = () => {
                     <NavLogo to="/">
                         guap
                     </NavLogo>
+                    <MobileIcon>
+                        <FaBars />
+                    </MobileIcon>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to="about"/>
+                        </NavItem>
+                    </NavMenu>
                 </NavbarContainer>
             </Nav>
         </Fragment>
