@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react';
+import {Nav, NavbarContainer, NavLogo} from './NavbarElements';
 
-const index = () => {
+const Navbar = () => {
     return (
-        <div>
-            
-        </div>
+        <Fragment>
+            <Nav>
+                <NavbarContainer>
+                    <NavLogo to="/">
+                        guap
+                    </NavLogo>
+                </NavbarContainer>
+            </Nav>
+        </Fragment>
     )
 }
 
-export default index
+export default Navbar
